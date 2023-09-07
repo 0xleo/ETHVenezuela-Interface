@@ -1,0 +1,143 @@
+.menuHorizontal{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.subMenu{
+    color: white;
+    font-size: 1.2em;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all 0.4s;
+    padding: 20px;
+    margin: 0px;
+}
+
+.subMenu:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  }
+
+@media (max-width: 600px) {
+    .menuHorizontal{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 601px) {
+    .menuVertical{
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 601px) {
+
+  #checkbox {
+    display: none;
+  }
+  
+  .toggle {
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition-duration: .2s;
+    z-index: 2;
+  }
+  
+  .bars {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+  }
+  
+  #bar2 {
+    transition-duration: .2s;
+  }
+  
+  #bar1,#bar3 {
+    width: 70%;
+  }
+  
+  #checkbox:checked + .toggle .bars {
+    position: absolute;
+    transition-duration: .2s;
+  }
+  
+  #checkbox:checked + .toggle #bar2 {
+    transform: scaleX(0);
+    transition-duration: .2s;
+  }
+  
+  #checkbox:checked + .toggle #bar1 {
+    width: 100%;
+    transform: rotate(45deg);
+    transition-duration: .2s;
+  }
+  
+  #checkbox:checked + .toggle #bar3 {
+    width: 100%;
+    transform: rotate(-45deg);
+    transition-duration: .2s;
+  }
+  
+  #checkbox:checked + .toggle {
+    transition-duration: .2s;
+    transform: rotate(180deg);
+  }
+
+
+
+
+
+  .containSubMenusVertical {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 70px;
+    z-index: 1;
+    background: rgb(0, 16, 28);
+    transition: 0.2s ease-in-out;
+    height: 100%;
+  }
+
+  .subMenu2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.2em;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.subMenu2:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+  }
+
+    }
