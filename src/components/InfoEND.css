@@ -1,0 +1,61 @@
+.containInfo{
+    width: 100%;
+    padding: 0;
+    margin-top: 80px;
+    color: rgb(207, 207, 207);
+}
+
+.section1{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.498);
+    padding: 20px;
+}
+
+.Contact{
+    cursor: pointer;
+}
+
+
+.Contact:hover{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+a{
+    color: rgba(255, 255, 255, 0.719);
+}
+
+
+
+.section2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    gap: 40px;
+    align-items: right;
+    background-color: rgba(0, 0, 0, 0.498);
+    padding: 30px;
+}
+
+
+
+.logos{
+    width: 40px;
+}
+
+/* .logoInstagram{
+    width: 50px;
+}
+.logoTwitterX{
+    width: 50px;
+}
+.logoTelegram{
+    width: 50px;
+} */

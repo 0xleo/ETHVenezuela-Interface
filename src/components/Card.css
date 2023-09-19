@@ -1,0 +1,44 @@
+.swiperSlideContainer{
+    min-width: 250px;
+    margin: auto;
+    width: 92vw;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+.slidesButtoms{
+    background: rgba(0, 64, 106, 0.5);
+    min-height: 260px;
+    text-align: left;
+    word-wrap: break-word;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0;
+    transition: all 0.2s;
+}
+
+.slidesButtoms:hover{
+    background: rgba(0, 64, 106, 0);
+}
+
+.logoSlide{
+    width: 50px;
+    border-radius: 10%;
+}
+
+.titleSlide{
+    font-size: 1.4em;
+    margin: 20px 0 20px 0;
+    text-align: left;
+}
+
+p{
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .slidesButtoms{
+        transition: all 0s;
+    }
+}

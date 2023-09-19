@@ -1,29 +1,80 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: 1600px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .containBtnIntro{
+  padding-top: 50px;
+  padding-top: 0;
+  padding-bottom: 200px;
   gap: 20px;
   display: flex;
   flex-wrap:wrap;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
+  background-color: #00000071;
+  padding-bottom: 300px;
 }
 
 .buttomIntro {
-  background-color: rgba(0, 0, 0, 0);
-  color: white;
+  background: rgba(0, 64, 106, 0.495);
+  color: rgb(255, 255, 255);
   width: 200px;
   padding: 20px;
-  border: 3px solid #a4a4a4;
   border-radius: 10px;
   transition: all 0.3s;
+  font-weight: bold;
 }
 
 .buttomIntro:hover {
-  background-color: rgba(255, 255, 255, 0);
-  border: 3px solid #ffffff;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 0px 0px 1000px 1px rgb(255, 255, 255);
+}
+
+@media (max-width: 600px) {
+  .buttomIntro {
+    border: 0px solid #ffffff00;
+    background: rgba(0, 64, 106, 0.495);
+    color: rgb(255, 255, 255);
+    width: 80px;
+    padding: 20px;
+    font-size: 0.8em;
+    transition: all 0s;
+    border-radius: 10px;
+  }
+  .buttomIntro:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0);
+  }
+}
+
+
+
+.aboutCommuity{
+  margin: 0rem;
+  margin-bottom: 10rem;
+  font-size: 1em;
+  text-align: center;
+  background: rgba(0, 64, 106, 0.201);
+  padding: 30px;
+
+  margin-left: 0rem;
+  margin-right: 0rem;
+
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+@media (max-width: 1000px) {
+  .aboutCommuity{
+    margin: 0rem;
+    margin-bottom: 10rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
 }

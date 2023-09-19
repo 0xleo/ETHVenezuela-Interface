@@ -48,10 +48,10 @@ export const Navbar = () => {
   return (
     <>
       <div className='menuHorizontal'>
-        <a href="" className='subMenu'>Cursos</a>
-        <a href="" className='subMenu'>Telegram</a>
+        <a href="" className='subMenu'>Gitcoin</a>
+        <a href="" className='subMenu'>Giveth</a>
         <a href="" className='subMenu'>Twitter</a>
-        <a href="" className='subMenu'>Blog</a>
+        <a href="" className='subMenu'>Telegram</a>
       </div>
 
       <div className='menuVertical'>
@@ -64,10 +64,10 @@ export const Navbar = () => {
     </label>
 
         <div className='containSubMenusVertical' id='menus' style={{ right: menuPosition }}>
-          <a href="" className='subMenu2'>Cursos</a>
-          <a href="" className='subMenu2'>Telegram</a>
+          <a href="" className='subMenu2'>Gitcoin</a>
+          <a href="" className='subMenu2'>Giveth</a>
           <a href="" className='subMenu2'>Twitter</a>
-          <a href="" className='subMenu2'>Blog</a>
+          <a href="" className='subMenu2'>Telegram</a>
         </div>
       </div>
     </>

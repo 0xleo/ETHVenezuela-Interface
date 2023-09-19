@@ -2,19 +2,21 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+    margin: 0.5rem;
 }
 
 .containerButtom{
-    background-color: rgb(58, 68, 118);
+    background: rgba(0, 64, 106, 0.5);
     padding: 1.9em;
     width: 18em;
     border-radius: 10px;
     margin: 10px;
     transition: all 0.2s;
+    word-wrap: break-word;
 }
 
 .containerButtom:hover{
-    background-color: rgba(54, 79, 103, 0.482);
+    background: transparent;
 }
 
 .logoButtom{
@@ -27,8 +29,10 @@
 }
 
 .titleButtom{
+    font-weight: bold;
     color: white;
     text-align: left;
+    margin: 20px 0 10px 0;
 }
 
 .contentButtom{
@@ -53,18 +57,56 @@
 }
 
 @media (min-width: 1000px){
-    .containerButtom{
-        background-color: rgb(58, 68, 118);
-        padding: 1.9em;
-        width: 18em;
-        border-radius: 10px;
-        margin: 10px;
-        transition: all 0.2s;
+    .containerMain{
+        margin-left: 8rem;
+        margin-right: 8rem;
     }
-    
+    .containerButtom{
+        background-color: transparent;
+    }
     .containerButtom:hover{
-        font-size: 1.1em;
-        background-color: rgba(54, 79, 103, 0.482);
+        background: rgba(0, 64, 106, 0.5);
     }
 
+}
+
+@media (max-width: 600px) {
+    .containerButtom{
+        transition: all 0s;
+    }
+}
+
+@media (max-width: 700px) {
+.containerMain{
+    display: none;
+}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 700px) {
+    .mediaHide{
+        display: none;
+    }
 }

@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     gap: 12px;
+    padding: 15px;
+    background-color: #00000071;
 }
 
 .subMenu{
@@ -9,9 +11,10 @@
     font-size: 1.2em;
     background-color: transparent;
     border-radius: 10px;
-    transition: all 0.4s;
+    transition: all 0.3s;
     padding: 20px;
     margin: 0px;
+    font-weight: bold;
 }
 
 .subMenu:hover {
@@ -120,7 +123,7 @@
     right: 0;
     padding: 70px;
     z-index: 1;
-    background: rgb(0, 16, 28);
+    background: rgb(0, 0, 0);
     transition: 0.2s ease-in-out;
     height: 100%;
   }
@@ -133,6 +136,7 @@
     margin: 40px;
     padding: 20px;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .subMenu2:hover {
