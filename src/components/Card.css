@@ -18,6 +18,14 @@
     transition: all 0.2s;
 }
 
+.swiper-scrollbar{
+    --swiper-scrollbar-sides-offset: 10%;
+    --swiper-scrollbar-bg-color: rgba(255, 255, 255, 0.1);
+    --swiper-scrollbar-drag-bg-color: rgba(255, 255, 255, 0.5);
+    --swiper-scrollbar-size: 3px;
+    --swiper-scrollbar-bottom: 0px;
+}
+
 .slidesButtoms:hover{
     background: rgba(0, 64, 106, 0);
 }

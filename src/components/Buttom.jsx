@@ -1,6 +1,12 @@
+import { Scrollbar, A11y } from 'swiper/modules';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+// This swiper depends on html and styles from Card.jsx and Card.css
 import 'swiper/css';
-import './ButtomStyle.css'
+import 'swiper/css/scrollbar';
+
+import './Buttom.css'
 
 export const Buttom = () => {
   return (
@@ -10,6 +16,7 @@ export const Buttom = () => {
           <div className='mediaHide'>
     <main className='swiperSlideContainer'>
     <Swiper
+      modules={[Scrollbar, A11y]}
       spaceBetween={10}
       slidesPerView={1}
                   breakpoints={{
@@ -42,6 +49,7 @@ export const Buttom = () => {
                 spaceBetween: 10,
               },
             }}
+      scrollbar={{ draggable: true}}      
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
